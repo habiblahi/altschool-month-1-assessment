@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AltSchool Africa application form replica.">
+  <title>AltSchool Africa | Application Form</title>
+</head>
+
+<body id="top">
+
+  <header>
+    <h1>AltSchool Africa Application Form</h1>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a> |
+      <a href="form.html" aria-current="page">Application Form</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Application Form</h2>
+      <p>Fill in the information below to begin your application to AltSchool Africa.</p>
+
+      <form action="#" method="post">
+
+        <!-- personal information form field -->
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <p>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="firstName" placeholder="Enter your first name" required>
+          </p>
+
+          <p>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="lastName" placeholder="Enter your last name" required>
+          </p>
+
+          <p>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+          </p>
+
+          <p>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+          </p>
+
+          <p>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select your gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="prefer-not-to-say">Prefer not to say</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="date-of-birth">Date of Birth:</label>
+            <input type="date" id="date-of-birth" name="dateOfBirth" required>
+          </p>
+
+        </fieldset>
+
+        <!-- educational information form field -->
+        <fieldset>
+          <legend>Educational Information</legend>
+
+          <p>
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" placeholder="Enter your country" required>
+          </p>
+
+          <p>
+            <label for="state">State/Region:</label>
+            <input type="text" id="state" name="state" placeholder="Enter your state" required>
+          </p>
+
+          <p>
+            <label for="education">Highest Educational Qualification:</label>
+            <select id="education" name="education" required>
+              <option value="">Select your qualification</option>
+              <option value="secondary">SSCE</option>
+              <option value="ond">OND</option>
+              <option value="hnd">HND</option>
+              <option value="bachelors">Bachelor's Degree</option>
+              <option value="masters">Master's Degree</option>
+              <option value="phd">PhD</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+
+        </fieldset>
+
+        <!-- school and program form field -->
+        <fieldset>
+          <legend>Select a School and Program</legend>
+
+          <p>
+            <label for="school">Choose a School:</label>
+            <select id="school" name="school" required>
+              <option value="">Select a school</option>
+              <option value="engineering">School of Engineering</option>
+              <option value="product">School of Product</option>
+              <option value="data">School of Data</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="programme">Choose a Programme:</label>
+            <select id="programme" name="programme" required>
+              <option value="">Select a programme</option>
+              <option value="ai-fullstack">AI Full Stack Engineering</option>
+              <option value="cybersecurity">Cybersecurity</option>
+              <option value="cloud">Cloud Engineering</option>
+              <option value="product-design">Product Design</option>
+              <option value="data-analysis">Data Analysis</option>
+            </select>
+          </p>
+
+        </fieldset>
+
+        <!-- account security form field -->
+        <fieldset>
+          <legend>Account Security</legend>
+
+          <p>
+            <label for="password">Create Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required minlength="8">
+          </p>
+
+          <p>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirmPassword" placeholder="Confirm your password"
+              required minlength="8">
+          </p>
+
+        </fieldset>
+
+        <!-- terms field -->
+        <fieldset>
+          <legend>Terms and Conditions</legend>
+
+          <p>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">
+              I agree to the Terms and Conditions and Privacy Policy.
+            </label>
+          </p>
+
+        </fieldset>
+
+
+        <p>
+          <button type="submit">Create Account</button>
+          <button type="reset">Clear Form</button>
+        </p>
+
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <address>
+      Busari Habiblahi A. <br />
+      Lagos State, Nigeria.
+    </address>
+    <p>&copy; 2026 Busari Habiblahi Adeleke. AltSchool Africa, School of Engineering.</p>
+  </footer>
+
+</body>
+
+</html>
